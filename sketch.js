@@ -7,7 +7,7 @@ function setup() {
 	v = 0;
 	n_lens = 2
 	r = 200
-	f = ((n/1) - 1)*(r/2))
+	f = ((n/1) - 1)*(r/2)
 	p_ob = Math.abs(r);
 	w_ob = Math.abs(f)/4;
 	h_ob = Math.abs(f);
@@ -23,11 +23,11 @@ function draw() {
 	if (keyIsPressed){
 		if (keyCode === LEFT_ARROW) {
             		r -= 2;
-            		f = ((n/1) - 1)*(r/2));
+            		f = ((n/1) - 1)*(r/2);
         	}
 		else if (keyCode === RIGHT_ARROW) {
             		r -= 2;
-            		f = ((n/1) - 1)*(r/2));
+            		f = ((n/1) - 1)*(r/2);
         	}
         	else if (key === "C") {
             		concave = !concave;
